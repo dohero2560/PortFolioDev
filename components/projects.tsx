@@ -7,7 +7,14 @@ import { Github, ExternalLink } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const projects = [
-
+  {
+    title: "FiveM Player Checker",
+    description: "เว็บแอปพลิเคชันสำหรับตรวจสอบข้อมูลผู้เล่น FiveM พัฒนาด้วยเทคโนโลยีสมัยใหม่",
+    tags: ["Next.js", "TypeScript", "FiveM API"],
+    image: "/placeholder.svg?height=400&width=600",
+    github: "#",
+    demo: "https://fivemcheck.doodev.xyz/",
+  },
   {
     title: "DooDevScriptShop",
     description: "ร้านค้าสคริปต์ FiveM ที่พัฒนาด้วย JavaScript สำหรับผู้ที่ต้องการซื้อสคริปต์คุณภาพสูง",
